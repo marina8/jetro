@@ -71,7 +71,7 @@ position: absolute;
 	position: absolute;
 	left: 135px;
 	padding-left: 10px;
-	max-width: 413px;
+	width: 413px;
 	text-align: left;
 }
 .carousel-caption h2{
@@ -137,10 +137,26 @@ position: absolute;
 }
 
 /*Recent works row*/
+.jk-recent-works{
+	padding:16px 0 28px 0;
+}
 .jk-recent-works h4{
 	font-family: 'Bebas', Arial, sans-serif;
 	text-transform: uppercase;
 	color:#e8663c;
+	background: #fff;
+	z-index:200;
+
+}
+.jk-recent-works .jt-line{
+	background-image: url("../img/line1.png");
+	background-size: contain;
+	background-repeat: repeat-x;
+	background-position: 100%;
+	height: 20px;
+	margin-top:-29px;
+	margin-left:133px;
+	margin-bottom:26px;
 }
 .jk-recent-works img{
 	width: 100%;
@@ -157,6 +173,7 @@ position: absolute;
 	color: #b9b9b9;
 	margin-top: 0;
 	padding-top:15px;
+
 }
 .jk-recent-works .jk-content p{
 	font:11px "Bebas", Arial, sans-serif;
