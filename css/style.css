@@ -48,31 +48,52 @@ position: absolute;
 .jt-light{
 	color:#f2ae9c;
 }
+.navbar-collapse{
+	padding-right:0;
+
+}
+.navbar-nav{
+	word-spacing: 3px;
+}
+
 .navbar-nav>li>a{
 	font: 16px "Bebas", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	color:#b9b9b9;
-
 }
+
 .navbar-nav>li>a:hover{
 	background: none;
 	color:#e8603c;
 	transition: color .3s ease-in;
+}
+.navbar-nav>li>a:last-child{
+	padding-right:0;
 }
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
 	line-height: 1;
 	width: 100%;
 }
+.jt-slider .glyphicon{
+	text-shadow:none;
+	font-size: 52px;
+	margin-top:-50px;
+}
+.jt-slider img{
+	max-width:100%;
+}
 
 .carousel-caption{
 	color:#fff;
 	background: rgba(232, 102, 60, 0.8);
 	position: absolute;
-	left: 135px;
-	padding-left: 10px;
-	width: 413px;
+	left:36px;
+	bottom:31px;
+	padding: 2px 20px 15px 20px;
+	width: 45%;
 	text-align: left;
+	text-shadow: none;
 }
 .carousel-caption h2{
 	font: 18px "Bebas", Arial, Helvetica, sans-serif;
