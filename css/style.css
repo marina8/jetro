@@ -69,7 +69,6 @@ h6{
 .navbar-collapse{
 	padding-right:0;
 
-
 }
 .navbar-nav{
 	word-spacing: 3px;
@@ -684,6 +683,12 @@ textarea:-moz-placeholder {
 	.jt-quote:before,
 	.jt-link:before{
 		display:none;
+
+	}
+}
+@media(max-width:768px){
+	.navbar-collapse{
+		padding-right:0;
 
 	}
 }
