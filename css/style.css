@@ -66,10 +66,11 @@ h6{
 .jt-light{
 	color:#f2ae9c;
 }
-/*.navbar-collapse{
+.navbar-collapse{
 	padding-right:0;
 
-}*/
+
+}
 .navbar-nav{
 	word-spacing: 3px;
 }
@@ -88,6 +89,10 @@ h6{
 .navbar-nav>li>a:last-child{
 	padding-right:0;
 }
+
+
+
+
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
 	line-height: 1;
