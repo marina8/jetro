@@ -171,6 +171,7 @@ h6{
 	margin-top: 22px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
+	font-family:'Bebas', Arial, sans-serif;
 }
 .btn:hover{
 	background: #FF6A40;
@@ -424,6 +425,7 @@ blockquote{
 .jt-blog-content .col-md-9{
 	padding-right: 30px;
 }
+
 .jt-about-side{
 	padding-left:30px;
 }
@@ -443,6 +445,9 @@ blockquote{
 }
 .jt-blog-content h4{
 	color:#e8603c;
+}
+.jt-blog-content h4:hover{
+	color: rgba(232, 96, 60, 0.73);
 }
 .jt-date-tags p{
 	padding:5px 0;
@@ -735,6 +740,7 @@ textarea:-moz-placeholder {
 	}
 }
 @media(max-width:989px){
+	.jt-about-content .col-md-9,
 	.jt-contacts-content .col-md-9,
 	.jt-blog-content .col-md-9{
 		padding-right: 10px;
