@@ -497,7 +497,7 @@ article .jt-line{
 .jt-link a{
 	color:#a0a0a0;
 	font-size: 12px;
-	display: inline-block;
+	display: block;
 	margin-bottom:27px;
 
 }
